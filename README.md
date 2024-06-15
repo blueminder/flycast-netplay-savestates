@@ -2,7 +2,7 @@
 
 This repository contains savestates for use with online games with Flycast Dojo. They are automatically downloaded the first time someone plays a match online, are automatically loaded when a netplay session starts, and may be used offline in Training Mode. Having a savestate present allows you to share the same settings as your opponent, and prevents desyncs caused by different emulator configurations.
 
-Submissions are welcome.
+Submissions are welcome. You may submit as either an Issue or Pull Request. To minimize disruption among players with existing savestates, I typically accept modifications to existing savestates between major version changes, so try to make what you submit count for the long haul.
 
 ## In Case of Download Failure
 
@@ -20,7 +20,7 @@ If you wish to make the custom savestate you created the one that is auto-downlo
 
 **All Systems**
 * Created with files from the preferred romset.
-  * Savestates for games are expected to run against the [preferred romset](https://dojo-project.gitbook.io/flycast-dojo/overview/frequently-asked-questions#what-is-the-preferred-romset) laid out in the Flycast Dojo FAQ. Games that fall outside this, like custom ROM hacks are also acceptable so long as the filenames are unique.
+  * Savestates for games are expected to run against the [preferred romset](https://dojo-project.gitbook.io/flycast-dojo/overview/frequently-asked-questions#what-is-the-preferred-romset) laid out in the Flycast Dojo FAQ. Games that fall outside this, like custom ROM hacks, are also acceptable so long as the filenames are unique.
 * No device modification.
   * Flycast Dojo defaults of 2 Sega Controllers and 1 VMU on Player 1 are assumed.
 * All Characters unlocked.
