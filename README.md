@@ -20,7 +20,7 @@ If you wish to make the custom savestate you created the one that is auto-downlo
 
 **All Systems**
 * Created with files from the preferred romset.
-  * Savestates for games are expected to run against the preferred romset laid out in the Flycast Dojo FAQ. Games that fall outside this, like custom ROM hacks are also acceptable so long as the filenames are unique.
+  * Savestates for games are expected to run against the [preferred romset](https://dojo-project.gitbook.io/flycast-dojo/overview/frequently-asked-questions#what-is-the-preferred-romset) laid out in the Flycast Dojo FAQ. Games that fall outside this, like custom ROM hacks are also acceptable so long as the filenames are unique.
 * No device modification.
   * Flycast Dojo defaults of 2 Sega Controllers and 1 VMU on Player 1 are assumed.
 * All Characters unlocked.
