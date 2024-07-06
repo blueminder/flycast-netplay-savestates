@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "`git show -s --format="%ct"` `git rev-parse HEAD` `git diff-tree --no-commit-id --name-only -r HEAD  | tr '\n' ';'`" | cat - commits > temp && mv temp commits
+mv .git/hooks/post-commit .git/hooks/post-commit.bak 
+git commit -a -m "append commits history `git show -s --format="%ct"`"
+mv .git/hooks/post-commit.bak .git/hooks/post-commit

@@ -39,3 +39,13 @@ If you wish to make the custom savestate you created the one that is auto-downlo
 **Atomiswave**
 * Free Play
   * Unlike NAOMI, this is not a default for all AW games. Head into the game's Service menu (using the `Service` and `Test` buttons in your controls), and make sure Free Play is selected.
+
+# Initializing Git
+
+For maintaining the repository or setting up a mirror.
+
+Enable post-commit hook. This creates a list of commits for easy comparison against UNIX epoch times.
+```
+cp post-commit .git/hooks/post-commit
+chmod +x .git/hooks/post-commit
+```
